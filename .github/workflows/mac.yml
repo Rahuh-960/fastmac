@@ -15,7 +15,5 @@ jobs:
         key_file: id_ecdsa
     - uses: actions/checkout@v2
     - run: source script-mac.sh
-    - name: Makes some space
-      uses: rokibhasansagar/slimhub_actions@main
     - name: Setup tmate session
       uses: mxschmitt/action-tmate@v2
